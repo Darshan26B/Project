@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name" translatable="false">Project</string>
+    <string name="app_name"><u>Personal Detail</u></string>
+    <string name="app_name1"><u>Education</u></string>
+    <string name="app_name2"><u>Phone Number</u></string>
+    <string name="app_name3"><u>About me</u></string>
+    <string name="app_name4"><u>Work-history</u></string>
+    <string name="app_name5"><u>Skill </u></string>
+    <string name="app_name6"><u>Hobby </u></string>
 </resources>

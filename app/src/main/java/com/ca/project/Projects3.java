@@ -25,8 +25,8 @@ public class Projects3 extends AppCompatActivity {
                 if (Work.isEmpty()) {
                     editText.setError("");
                 } else {
-                    Toast.makeText(Projects3.this,"Submit",Toast.LENGTH_SHORT).show();
-                }
+                    Intent intent = new Intent(Projects3.this, Layout1.class);
+                    startActivities(new Intent[]{intent});                }
             }
         });
     }
