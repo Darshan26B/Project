@@ -36,6 +36,7 @@
                 android:textSize="22dp" />
 
             <TextView
+                android:id="@+id/Name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
@@ -155,7 +156,7 @@
                 android:textColor="@color/black"
                 android:textSize="25dp" />
 
-            <EditText
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="16dp"
@@ -171,12 +172,14 @@
                 android:textColor="@color/black"
                 android:textSize="25dp" />
 
-            <EditText
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="16dp"
                 android:layout_margin="16dp"
                 android:background="@null"
+
+
                 android:textSize="20dp" />
             <TextView
                 android:layout_width="match_parent"
@@ -188,7 +191,7 @@
                 android:textSize="25dp" />
 
 
-            <EditText
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_margin="16dp"
@@ -203,34 +206,16 @@
                 android:text="@string/app_name6"
                 android:textColor="@color/black"
                 android:textSize="25dp" />
-
-            <CheckBox
-                android:layout_width="100dp"
+            <TextView
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="left"
-                android:layout_marginLeft="25dp"
-                android:text="Sports"
-                android:textSize="20dp"
-                android:textStyle="italic|bold" />
-
-            <CheckBox
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="left"
-                android:layout_marginLeft="25dp"
-                android:text="Game"
-                android:textSize="20dp"
-                android:textStyle="bold" />
+                android:padding="16dp"
+                android:layout_marginTop="10dp"
+                android:text="My Hobby"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
 
 
-            <CheckBox
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="left"
-                android:layout_marginLeft="25dp"
-                android:text="journey"
-                android:textSize="20dp"
-                android:textStyle="bold" />
 
         </LinearLayout>
 
