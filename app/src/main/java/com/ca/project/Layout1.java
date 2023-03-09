@@ -8,12 +8,13 @@ import android.preference.Preference;
 import android.widget.TextView;
 
 public class Layout1 extends AppCompatActivity {
-
+    SharedPreferences preferences;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_layout1);
-        SharedPreferences preferences = getSharedPreferences("PData",0);
+
+         preferences = getSharedPreferences("PData",0);
 
         TextView txtName = findViewById(R.id.Name);
         TextView txtDOB = findViewById(R.id.DOB);

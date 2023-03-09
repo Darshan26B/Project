@@ -23,17 +23,19 @@ public class Projects3 extends AppCompatActivity {
         setContentView(R.layout.activity_projects3);
         preferences = getSharedPreferences("PData", 0);
         editor = preferences.edit();
-        TextView textView = findViewById(R.id.Next5);
+        TextView Next5 = findViewById(R.id.Next5);
         EditText editText = findViewById(R.id.Pro);
 
 
-        textView.setOnClickListener(new View.OnClickListener() {
+        Next5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String Project = editText.getText().toString();
                 editor.putString("Project", Project);
+                editor.commit();
                 if (Project.isEmpty()) {
-                    editText.setError("");
+                    editText.setError("Enter project ");
+
                 } else {
                     Intent intent = new Intent(Projects3.this, Layout1.class);
                     intent.putExtra("Project",Project);
