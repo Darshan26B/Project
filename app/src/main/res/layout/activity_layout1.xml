@@ -132,10 +132,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Your Name"
-                android:paddingLeft="5dp"
                 android:background="#E7B10A"
                 android:textSize="30dp"
-                android:padding="5dp"
+                android:paddingLeft="16dp"
                 android:layout_marginTop="20dp"
                 android:textColor="@color/black" />
             <TextView
@@ -143,7 +142,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="professional Title"
-                android:padding="5dp"
+                android:paddingLeft="20dp"
                 android:background="#E7B10A"
                 android:textSize="15dp"
                 android:textColor="@color/black" />

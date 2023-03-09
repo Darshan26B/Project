@@ -65,6 +65,7 @@ public class Layout1 extends AppCompatActivity {
         txtQualification.setText(Qualification);
         txtYour_Name.setText(Your_Name);
         txtPT.setText(PT);
+        txtAbout.setText(About);
         txtA_me.setText(A_me);
         txtWork.setText(Work);
         txtWork_h.setText(Work_h);

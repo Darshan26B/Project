@@ -31,8 +31,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:background="#0E8388"
-                    android:padding="5dp"
-                    android:paddingLeft="5dp"
+                    android:paddingLeft="16dp"
                     android:text="Your Name"
                     android:textColor="@color/black"
                     android:textSize="30dp" />
