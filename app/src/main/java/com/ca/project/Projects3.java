@@ -37,9 +37,9 @@ public class Projects3 extends AppCompatActivity {
                     editText.setError("Enter project ");
 
                 } else {
-                    Intent intent = new Intent(Projects3.this, Layout1.class);
+                    Intent intent = new Intent(Projects3.this,DesignActivity2.class);
                     intent.putExtra("Project",Project);
-                    startActivities(new Intent[]{intent});
+                    startActivity(intent);
 
                 }
             }

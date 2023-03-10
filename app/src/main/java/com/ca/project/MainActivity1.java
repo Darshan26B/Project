@@ -42,7 +42,7 @@ public class MainActivity1 extends AppCompatActivity {
                 editor.putString("DOB",DOB);
                 editor.putString("Id",ID);
                 editor.putString("Num",Num);
-
+                editor.commit();
                 if (Name.isEmpty()) {
                     edt1.setError("Enter Your Name !");
                 } else if (DOB.isEmpty()) {
@@ -57,8 +57,7 @@ public class MainActivity1 extends AppCompatActivity {
                     intent.putExtra("DOB", DOB);
                     intent.putExtra("ID",ID);
                     intent.putExtra("Num", Num);
-                    startActivities(new Intent[]{intent});
-
+                    startActivity(intent);
                 }
 
             }

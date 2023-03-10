@@ -19,7 +19,7 @@ public class Hobby extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Hobby.this, Skills4.class);
-                startActivities(new Intent[]{intent});
+                startActivity(intent);
             }
         });
     }

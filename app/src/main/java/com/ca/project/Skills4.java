@@ -29,6 +29,7 @@ public class Skills4 extends AppCompatActivity {
                 String Work =editText.getText().toString();
 
                 editor.putString("Work",Work);
+                editor.commit();
 
 
                 if (Work.isEmpty()) {
@@ -37,7 +38,7 @@ public class Skills4 extends AppCompatActivity {
                     Intent intent = new Intent(Skills4.this, Projects3.class);
                     intent.putExtra("Work", Work);
 
-                    startActivities(new Intent[]{intent});
+                    startActivity(intent);
                 }
             }
         });

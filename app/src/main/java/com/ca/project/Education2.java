@@ -37,6 +37,7 @@ public class Education2 extends AppCompatActivity {
                 editor.putString("school",school);
                 editor.putString("Board",Board);
                 editor.putString("qu",Qu);
+                editor.commit();
 
 
                 if (school.isEmpty()) {
@@ -50,7 +51,7 @@ public class Education2 extends AppCompatActivity {
                     intent.putExtra("school",school);;
                     intent.putExtra("Board",Board);
                     intent.putExtra("qu",Qu);
-                    startActivities(new Intent[]{intent});
+                    startActivity(intent);
                 }
 
             }

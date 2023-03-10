@@ -36,6 +36,7 @@ public class Work_History extends AppCompatActivity {
                 editor.putString("Des",Designation);
                 editor.putString("Company",Company_Name);
                 editor.putString("Exp",Experience);
+                editor.commit();
 
                if (Designation.isEmpty()) {
                     Des.setError("Enter You Designation !");
@@ -48,7 +49,7 @@ public class Work_History extends AppCompatActivity {
                     intent.putExtra("Des", Designation);
                     intent.putExtra("Company", Company_Name);
                     intent.putExtra("Exp", Experience);
-                    startActivities(new Intent[]{intent});
+                    startActivity(intent);
                 }
             }
         });
