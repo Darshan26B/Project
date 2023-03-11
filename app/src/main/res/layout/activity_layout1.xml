@@ -36,7 +36,7 @@
                 android:textSize="22dp" />
 
             <TextView
-                android:id="@+id/Name"
+                android:id="@+id/Name1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
@@ -51,7 +51,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:paddingLeft="16dp"
-                android:text="Date Of Birth"
+                android:text="Age"
                 android:textColor="@color/text_color"
                 android:textSize="20dp" />
 
@@ -147,7 +147,6 @@
                 android:textSize="15dp"
                 android:textColor="@color/black" />
             <TextView
-                android:id="@+id/About"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="100dp"
@@ -165,7 +164,6 @@
                 android:background="@null"
                 android:textSize="20dp" />
             <TextView
-                android:id="@+id/Work"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
@@ -183,7 +181,6 @@
                 android:background="@null"
                 android:textSize="20dp" />
             <TextView
-                android:id="@+id/Skill"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
@@ -202,7 +199,6 @@
                 android:textSize="20dp" />
 
             <TextView
-                android:id="@+id/Hobby"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="16dp"

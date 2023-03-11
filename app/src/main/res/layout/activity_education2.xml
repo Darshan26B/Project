@@ -37,7 +37,7 @@
                 android:textSize="20dp" />
 
             <EditText
-                android:id="@+id/Sc"
+                android:id="@+id/sch"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:background="@drawable/buttonbtn"
@@ -61,7 +61,7 @@
                 android:textSize="20dp" />
 
             <EditText
-                android:id="@+id/BE"
+                android:id="@+id/Board"
                 android:layout_width="180dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -85,7 +85,7 @@
                 android:textSize="20dp" />
 
             <EditText
-                android:id="@+id/Qn"
+                android:id="@+id/Qualification"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -106,7 +106,7 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/Next1"
+            android:id="@+id/Next2"
             android:layout_width="150dp"
             android:layout_height="60dp"
             android:layout_marginTop="40dp"

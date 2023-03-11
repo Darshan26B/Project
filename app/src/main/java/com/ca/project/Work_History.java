@@ -21,7 +21,7 @@ public class Work_History extends AppCompatActivity {
         setContentView(R.layout.activity_work_history);
         preferences = getSharedPreferences("PData", 0);
         editor = preferences.edit();
-      TextView textView=findViewById(R.id.Next2);
+      TextView textView=findViewById(R.id.Next1);
         EditText Des=findViewById(R.id.edtW1);
         EditText Company=findViewById(R.id.edtW2);
         EditText Exp=findViewById(R.id.edtW3);

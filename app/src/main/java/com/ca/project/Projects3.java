@@ -35,7 +35,6 @@ public class Projects3 extends AppCompatActivity {
                 editor.commit();
                 if (Project.isEmpty()) {
                     editText.setError("Enter project ");
-
                 } else {
                     Intent intent = new Intent(Projects3.this,DesignActivity2.class);
                     intent.putExtra("Project",Project);

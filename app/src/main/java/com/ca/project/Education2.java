@@ -22,17 +22,17 @@ public class Education2 extends AppCompatActivity {
         setContentView(R.layout.activity_education2);
         preferences = getSharedPreferences("PData", 0);
         editor = preferences.edit();
-        TextView textView = findViewById(R.id.Next1);
-        EditText edt1 = findViewById(R.id.Sc);
-        EditText edt2 = findViewById(R.id.BE);
-        EditText edt3 = findViewById(R.id.Qn);
+        TextView textView = findViewById(R.id.Next2);
+        EditText edtSch = findViewById(R.id.sch);
+        EditText edtBoard = findViewById(R.id.Board);
+        EditText edtQu = findViewById(R.id.Qualification);
 
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String school = edt1.getText().toString();
-                String Board = edt2.getText().toString();
-                String Qu = edt3.getText().toString();
+                String school = edtSch.getText().toString();
+                String Board = edtBoard.getText().toString();
+                String Qu = edtQu.getText().toString();
 
                 editor.putString("school",school);
                 editor.putString("Board",Board);
@@ -41,11 +41,11 @@ public class Education2 extends AppCompatActivity {
 
 
                 if (school.isEmpty()) {
-                    edt1.setError("Enter School Name!");
+                    edtSch.setError("Enter School Name!");
                 } else if (Board.isEmpty()) {
-                    edt2.setError("Enter Board Examination !");
+                    edtBoard.setError("Enter Board Examination !");
                 } else if (Qu.isEmpty()) {
-                    edt3.setError("Enter your Qualification !");
+                    edtQu.setError("Enter your Qualification !");
                 } else {
                     Intent intent = new Intent(Education2.this, Hobby.class);
                     intent.putExtra("school",school);;
